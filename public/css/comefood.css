@@ -1,0 +1,39 @@
+.carousel{border:5px solid #f77e15;border-radius: 0.5rem}
+.carousel-item img{height:500px;}
+.carousel-control-prev,
+.carousel-control-next{
+    width: 4%;
+    height: 20%;
+    background: #aaa;
+    border-radius: 0.25rem;
+    top:40%;
+}
+.carousel-indicators li{
+    width:0.75rem;height:0.75rem;
+    border-radius: 50%;
+    background: #fff;
+    margin:0 0.25rem;
+}
+.carousel-indicators .active{
+    background:#0aa1ed;
+}
+.card ul li .media img{transition:1s}
+.card ul li .media img:hover{transform:scale(1.1)}
+.card ul li .media .media-body .list-group{
+    flex-direction: row;
+
+}
+.card ul li .media .media-body .list-group li{
+    background: #0aa1ed;
+    border-radius: 0.25rem;
+    width:100px;height: 40px;
+    text-align: center;
+    padding:6px;
+}
+.my_retop{
+    cursor: pointer;
+    position: fixed;
+    right:15px;
+}
+.my_retop img{ transition:60ms;opacity:1;}
+

@@ -1,0 +1,16 @@
+$.ajax({
+    url:"http://127.0.0.1:5500/newheader.html",
+    type:"get",   
+})
+.then(res=>{
+    //document.getElementsByTagName("header")[0].innerHTML=res;
+    $(".newheader").html(res)
+})
+$.ajax({
+    url:"http://127.0.0.1:5500/footer.html",
+    type:"get",  
+})
+.then(res=>{
+    //document.getElementsByTagName("footer")[0].innerHTML=res;
+    $(".footer").html(res)
+})

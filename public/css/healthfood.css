@@ -1,0 +1,90 @@
+header{
+    height:161PX;
+}
+footer{
+    width: 100%;
+    height:50px;
+    position: fixed;
+    bottom: 0;
+    left:0
+}
+.headthfoodmain{
+    width: 1140px;
+    height:100%;
+    margin: 0 auto;
+    background:#ff8;
+    padding:10px;
+    padding-bottom:80px;
+}
+.headthfoodmain .title{
+    width: 1140px;
+    height: 50px;
+    line-height: 50px;
+    font-size: 20px;
+    color: white;
+    text-align: center;
+    background: rgba(0,0,0,0.5);
+    position:fixed;
+    top:170px;
+    transition:2s;
+}
+.headthfoodmain .img{
+    width:960px;
+    height:180px;
+    margin: 0 auto;
+    border: 2px solid #0f0;
+    border-radius: 10px;
+    overflow: hidden;
+    margin-top:80px;
+}
+@keyframes hful{
+    0%{margin-left:0px;}
+	100%{margin-left:-960px;}
+}
+.headthfoodmain .img ul{
+    list-style:none;
+    height:180px;
+    width:1920px;
+    margin-left:0px;
+    animation:hful 10s linear infinite ;
+}
+.headthfoodmain .img ul:hover{
+    animation-play-state:paused;
+}
+.headthfoodmain .img ul li{
+    float:left;
+    height:170px;
+    margin:10px;
+    margin-top:7px;
+}
+.headthfoodmain .img ul li img{
+    width:220px;
+    height: 165px;
+}
+.headthfoodmain .text{
+    width:960px;
+    margin: 0 auto;
+    margin-top:20px;
+    font-size: 24px;
+}
+.headthfoodmain .text .texttitle{
+    background: #e8e8e8;
+    padding: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.headthfoodmain .text div:nth-child(2n){
+    background: #cf8;
+    padding: 5px;
+}
+.fade{
+    height:0px;
+    opacity:0;
+    overflow: hidden;
+    transition: 1s;
+}
+.in{
+    height:200px;
+    opacity:1;
+    overflow:auto
+}
